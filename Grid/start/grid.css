@@ -1,0 +1,83 @@
+div {
+    border:1px solid #A2CADF;
+    margin:0;
+    text-align: center;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section.grid {
+    display:grid;
+    grid-template-columns: repeat(4, 50px);
+    grid-template-rows: auto;
+    grid-template-areas:
+    "header header header header"
+    "più meno per diviso"
+    "sette otto nove uguale"
+    "quattro cinque sei uguale"
+    "uno due tre uguale"
+    "zero punto AC uguale";
+}
+#header {
+    background-color: #293133;
+    text-align: end;
+    color: white;
+    grid-area: header;
+}
+#più {
+    grid-area:più;
+    background-color:#C6E9F9;
+}
+#meno {
+    grid-area: meno;
+    background-color: #C6E9F9;
+}
+#per {
+    grid-area: per;
+    background-color: #C6E9F9;
+}
+#diviso {
+    grid-area: diviso;
+    background-color: #C6E9F9;
+}
+#sette {
+    grid-area: sette;
+}
+#otto {
+    grid-area: otto;
+}
+#nove {
+    grid-area: nove;
+}
+#uguale {
+    background-color: #ff3333;
+    grid-area: uguale;
+    text-align:center;
+}
+#quattro {
+    grid-area: quattro;
+}
+#cinque {
+    grid-area: cinque;
+}
+#sei {
+    grid-area: sei;
+}
+#uno {
+    grid-area: uno;
+}
+#due {
+    grid-area: due;
+}
+#tre {
+    grid-area: tre;
+}
+#zero {
+    grid-area: zero;
+}
+#punto {
+    grid-area: punto;
+}
+#AC {
+    grid-area: AC;
+}
